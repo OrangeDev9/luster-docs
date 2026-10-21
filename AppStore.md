@@ -62,9 +62,9 @@ FIRST-CLASS IPAD & MAC EXPERIENCE
 PRICING & PLUS
 Free tier includes up to 3 vehicles, 5 detail sessions, and 3 sample PDFs.
 Upgrade to Luster Plus for unlimited vehicles, unlimited sessions, unlimited watermark-free PDF exports, maintenance reminders, and advanced insights.
-- Monthly: $1.99 / month
-- Yearly: $9.99 / year (includes 3-day free trial)
-- Lifetime: $19.99 (one-time purchase, yours forever)
+- Monthly: $2.99 / month
+- Yearly: $14.99 / year (includes 7-day free trial)
+- Lifetime: $39.99 (one-time purchase, yours forever)
 
 ---
 
@@ -74,7 +74,7 @@ Upgrade to Luster Plus for unlimited vehicles, unlimited sessions, unlimited wat
 > 
 > Testing In-App Purchases:
 > - The free tier allows up to 3 vehicles and 5 sessions. Adding a 4th vehicle or 6th session prompts the StoreKit paywall.
-> - Sandbox test accounts can test Monthly, Yearly (with 3-day free trial), and Lifetime purchases.
+> - Sandbox test accounts can test Monthly, Yearly (with 7-day free trial), and Lifetime purchases.
 > 
 > Hardware & Permissions:
 > - Camera is used only when the user taps the camera button to take vehicle before/after photos.
