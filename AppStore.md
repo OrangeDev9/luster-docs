@@ -1,12 +1,12 @@
-# Luster — App Store Submission Guide
+# GlossLog — App Store Submission Guide
 
 ## 1. App Store Metadata
 
-- **Name:** Luster
+- **Name:** GlossLog
 - **Subtitle:** Car Detailing Log & Journal
 - **Category:** Lifestyle (Primary), Utilities (Secondary)
-- **Bundle Identifier:** `com.luster.app`
-- **SKU:** `luster-ios`
+- **Bundle Identifier:** `com.glosslog.app`
+- **SKU:** `glosslog-ios`
 - **Keywords (exactly 100 characters max):**
   `car detailing,detailing log,shine track,wash tracker,ceramic coating,paint protection,auto detailer`
 - **Targeted Devices:** iPhone & iPad (Universal)
@@ -22,7 +22,7 @@
 
 Precision automotive detailing, protection tracking, and garage history — all in one native app.
 
-Luster is the ultimate privacy-first detailing journal designed for car collectors, weekend enthusiasts, and mobile detailing professionals. Track treatments, monitor ceramic and wax degradation, compare before & after transformations with an interactive slider, and generate professional client invoices — 100% offline.
+GlossLog is the ultimate privacy-first detailing journal designed for car collectors, weekend enthusiasts, and mobile detailing professionals. Track treatments, monitor ceramic and wax degradation, compare before & after transformations with an interactive slider, and generate professional client invoices — 100% offline.
 
 SHOWCASE GALLERY & BEFORE/AFTER SLIDER
 - Align your "after" shot perfectly using our camera ghost overlay
@@ -61,20 +61,21 @@ FIRST-CLASS IPAD & MAC EXPERIENCE
 
 PRICING & PLUS
 Free tier includes up to 3 vehicles, 5 detail sessions, and 3 sample PDFs.
-Upgrade to Luster Plus for unlimited vehicles, unlimited sessions, unlimited watermark-free PDF exports, maintenance reminders, and advanced insights.
-- Monthly: $2.99 / month
-- Yearly: $14.99 / year (includes 7-day free trial)
-- Lifetime: $39.99 (one-time purchase, yours forever)
+Upgrade to GlossLog Plus for unlimited vehicles, unlimited sessions, unlimited watermark-free PDF exports, maintenance reminders, and advanced insights.
+- Monthly: $2.99 / month (`com.glosslog.plus.monthly`)
+- Yearly: $14.99 / year with 7-day free trial (`com.glosslog.plus.yearly`)
+- Lifetime: $39.99 one-time purchase (`com.glosslog.lifetime`)
 
 ---
 
 ## 3. App Review Notes (Paste into App Store Connect)
 
-> Luster operates 100% offline and requires no user registration, account, or login. All vehicle records, photos, and chemical inventories are stored locally on the device using Apple's SwiftData framework.
+> GlossLog operates 100% offline and requires no user registration, account, or login. All vehicle records, photos, and chemical inventories are stored locally on the device using Apple's SwiftData framework.
 > 
 > Testing In-App Purchases:
 > - The free tier allows up to 3 vehicles and 5 sessions. Adding a 4th vehicle or 6th session prompts the StoreKit paywall.
 > - Sandbox test accounts can test Monthly, Yearly (with 7-day free trial), and Lifetime purchases.
+> - In Settings > GlossLog Plus, tap "Restore Purchases" to restore test transactions.
 > 
 > Hardware & Permissions:
 > - Camera is used only when the user taps the camera button to take vehicle before/after photos.
@@ -87,7 +88,7 @@ Upgrade to Luster Plus for unlimited vehicles, unlimited sessions, unlimited wat
 ## 4. App Privacy Declaration (App Store Connect)
 
 - **Data Collection:** Data Not Collected
-- **Tracking:** No (Luster does not track users across apps or websites)
+- **Tracking:** No (GlossLog does not track users across apps or websites)
 - **Privacy Manifest:** `PrivacyInfo.xcprivacy` included with `NSPrivacyAccessedAPICategoryUserDefaults` (CA92.1) and zero tracking domains.
 
 ---
@@ -102,3 +103,10 @@ Launch in Xcode with arguments: `-seedSampleData -forcePlus`
 4. **Treatment Protection:** Ceramic and wax protection wear-off indicators.
 5. **Inventory Shelf:** Chemical bottles with % remaining and low-stock warnings.
 6. **PDF Invoicing:** Professional branded invoice with tax and logo.
+
+---
+
+## 6. App Icon (1024x1024)
+
+- **Production Icon:** `Assets.xcassets/AppIcon.appiconset/AppIcon.png` (Full-bleed graphite background, electric-blue gloss caustic glow, futuristic aerodynamic hypercar enclosed inside a protective glass bubble with a starburst sparkle).
+- **Original Droplet Backup:** `Assets.xcassets/AppIcon.appiconset/AppIcon_original_droplet.png`.
