@@ -11,10 +11,10 @@
   `car detailing,detailing log,shine track,wash tracker,ceramic coating,paint protection,auto detailer`
 - **Targeted Devices:** iPhone & iPad (Universal)
 - **Primary URLs (GitHub Pages):**
-  - **Support URL:** `https://orangedev9.github.io/luster-docs/support.html`
-  - **Privacy Policy URL:** `https://orangedev9.github.io/luster-docs/privacy.html`
-  - **Marketing / Landing URL:** `https://orangedev9.github.io/luster-docs/index.html`
-  - **Terms of Use:** `https://orangedev9.github.io/luster-docs/terms.html`
+  - **Support URL:** `https://orangedev9.github.io/glosslog-docs/support.html`
+  - **Privacy Policy URL:** `https://orangedev9.github.io/glosslog-docs/privacy.html`
+  - **Marketing / Landing URL:** `https://orangedev9.github.io/glosslog-docs/index.html`
+  - **Terms of Use:** `https://orangedev9.github.io/glosslog-docs/terms.html`
 
 ---
 
